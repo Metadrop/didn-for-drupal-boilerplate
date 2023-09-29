@@ -1,6 +1,6 @@
 This repository contains a Dockerfile to create a Docker image that is able to run, thanks to Docker-in-docker, a [Drupal Boilerplate](https://github.com/Metadrop/drupal-boilerplate).
 
-## In Doccker Hub
+## In Docker Hub
 
 This image is in Docker Hub: https://hub.docker.com/r/metadrop/dind-for-drupal-boilerplate
 
