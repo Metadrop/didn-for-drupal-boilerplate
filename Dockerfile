@@ -20,6 +20,7 @@ RUN apk add --update-cache\
   php81-zip \
   php81-phar \
   php81-openssl \
+  php81-curl \
   bash
 
 
