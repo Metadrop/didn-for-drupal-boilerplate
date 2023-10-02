@@ -2,9 +2,9 @@ This repository contains a Dockerfile to create a Docker image that is able to r
 
 ## In Docker Hub
 
-This image is in Docker Hub: https://hub.docker.com/r/metadrop/dind-for-drupal-boilerplate
+This image is in Docker Hub: https://hub.docker.com/repository/docker/metadrop/drupal-boilerplate-dind/
 
-Image: metadrop/dind-for-drupal-boilerplate:<tag>
+Image: metadrop/drupal-boilerplate-dind:<tag>
 
 ### Tags
  - v0.1: Initial release.
@@ -13,5 +13,4 @@ Image: metadrop/dind-for-drupal-boilerplate:<tag>
 
 Use the following command to run the container and mount the boilerplate inside the container:
 
-```docker run -d -it --privileged --name devtest --mount type=bind,source=<path to a boilerplate root folder>,target=/<path inside container where to mount the boilerplate> <image id>```
-
+```docker run -d -it --privileged --name devtest --mount type=bind,source=<path to a boilerplate root folder>,target=/<path inside container where to mount the boilerplate> metadrop/drupal-boilerplate-dind:<tag>```
